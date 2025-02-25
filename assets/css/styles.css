@@ -19,7 +19,6 @@ body {
 html,
 body {
     scroll-behavior: smooth;
-    overflow: overlay;
 }
 ::-webkit-scrollbar {
     border-radius: 0;
@@ -28,11 +27,11 @@ body {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 4px;
-    background-color: var(--color);
+    background-color: rgba(30, 191, 193, 0.35);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(30, 191, 193, 0.7);
+    background-color: rgba(30, 191, 193, 1);
 }
 
 ::-webkit-scrollbar-track {
